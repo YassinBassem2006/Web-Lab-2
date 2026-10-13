@@ -1,0 +1,128 @@
+/* ---------- Base ---------- */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #f3efe6;
+    color: #2b2b2b;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    margin: 36px 0 16px;
+    color: #0b3c49;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    color: #3d2c2c;
+    text-align: center;
+}
+
+/* ---------- Header ---------- */
+header {
+    background-color: #0b3c49;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 16px;
+}
+
+header p {
+    color: #cfe8ee;
+    margin-top: 6px;
+}
+
+/* ---------- About ---------- */
+.about {
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ---------- Projects ---------- */
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px 30px;
+}
+
+.project-card {
+    background-color: #ffffff;
+    width: 240px;
+    padding: 20px 16px;
+    border-top: 4px solid #e07a5f;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.project-card p {
+    font-size: 14px;
+}
+
+/* ---------- Contact form ---------- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 360px;
+    margin: 0 auto 40px;
+    padding: 0 16px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    border: 1px solid #b8b2a3;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px;
+    background-color: #0b3c49;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e07a5f;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #1d2b2f;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 13px;
+}
